@@ -1,0 +1,79 @@
+#welcome-section {
+  text-align: center;
+  height: auto;
+}
+#projects {
+  text-align: center;
+  background-color: rgb(0,255,255);
+  font-size: 20px;
+  background-size: 300px;
+}
+#photo {
+  border-radius: 50%;
+  max-width: 100%;
+  height: 200px;
+}
+#codepen {
+  font-family: impact;
+  background-color: red;
+}
+#part {
+  font-family: jazz let, fantasy;
+  font-size: 20pt;
+}
+#navbar {
+  display: absolute;
+  position: fixed;
+  top: 0;
+  text-align: right;
+  padding-right: 100px;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: green;
+}
+#nav-link{
+  font-size: 100%;
+  font-family: script;
+}
+body {
+  scroll-behaviour: smooth;
+}
+#navbar a {
+  font-family: monospace;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: yellow;
+}
+#welcome-section {
+  font-family: rockwell;
+  text-align: center;
+  background: orange;
+  padding-top: 15vh;
+  height: 95vh;
+}
+ #github {
+    text-align: center;
+  }
+@media (max-width: 100px) {
+  #welcome-section {
+    font-family: archetype;
+  }
+}
+#about {
+  text-align: center;
+  margin-left: 10px;
+}
+#h1 {
+  color: blue;
+}
+#contact {
+  text-align: center;
+  background-color: yellow;
+  font-size: 20px;
+}
